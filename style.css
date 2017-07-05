@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+
+.out-wrapper {
+    box-sizing: border-box; 
+    display: table; 
+    position: absolute; 
+    height: 100%;
+    width: 100%;
+    border: 2px solid green;
+
+}
+
+.in-wrapper {
+    display: table-cell; 
+    vertical-align: middle; 
+    border: 2px solid green;
+
+}
+
+img {
+    display: block; 
+    margin: 0 auto; 
+    border: 1px solid green;
+
+}
+
+.text-input {
+    display: block; 
+    margin: 0 auto;
+    border: 1px solid green;    
+}
+
+.buttons {
+    border: 1px solid red; 
+    text-align: center; 
+}
+
+input {
+    border: 1px solid brown;
+}
+
+
+
+
