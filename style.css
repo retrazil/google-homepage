@@ -23,25 +23,34 @@
 img {
     display: block; 
     margin: 0 auto; 
-    border: 1px solid green;
-
 }
 
 .text-input {
     display: block; 
     margin: 0 auto;
-    border: 1px solid green;    
+    padding: 12px; 
+    width: 35%;
+    margin-top: 25px; 
+    font-size: 14px; 
+    background-color: white; 
+    border: .1px solid #E0E0E0; 
+    box-shadow: 0 0 1px #E0E0E0, 0 2px 2px #E0E0E0; 
+}
+
+.text-input:hover{
+    transition: .3s all;
+    box-shadow: 0 0 3px #E0E0E0, -2px 2px 5px #E0E0E0, 3px 3px 7px #E0E0E0;    
 }
 
 .buttons {
+    margin-top: 25px; 
     border: 1px solid red; 
     text-align: center; 
 }
 
-input {
-    border: 1px solid brown;
+.button {
+    
 }
-
 
 
 
