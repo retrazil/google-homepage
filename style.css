@@ -33,19 +33,24 @@ img {
     margin-top: 25px; 
     font-size: 14px; 
     background-color: white; 
-    border: .1px solid #E0E0E0; 
-    box-shadow: 0 0 1px #E0E0E0, 0 2px 2px #E0E0E0; 
+    border: .1px solid #D8D8D8; 
+    box-shadow: 0 0 0 #D8D8D8, 0 2px 2px #D8D8D8; 
 }
 
 .text-input:hover{
-    transition: .3s all;
-    box-shadow: 0 0 3px #E0E0E0, -2px 2px 5px #E0E0E0, 3px 3px 7px #E0E0E0;    
+    transition: .2s all;
+    box-shadow: 0 0 1px #D8D8D8, -2px 0 3px #D8D8D8, 2px 3px 5px #D8D8D8;  
+    border: .1px solid #D6D6D6;
 }
 
 .buttons {
     margin-top: 25px; 
     border: 1px solid red; 
     text-align: center; 
+}
+
+.text-input {
+    transition: .2s all;
 }
 
 .button {
