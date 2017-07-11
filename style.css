@@ -44,6 +44,7 @@ img {
 }
 
 .buttons {
+    box-sizing: border-box;
     margin-top: 25px; 
     border: 1px solid red; 
     text-align: center; 
@@ -54,7 +55,19 @@ img {
 }
 
 .button {
-    
+    font: bold 13px "Noto Sans", sans-serif; 
+    color: #7A7A7A;
+    padding: 7px 20px;
+    margin: 0 2px; 
+    background-color: #EFEFEF;
+    border: none;
+    border: 1px solid transparent; 
+}
+
+.button:hover{
+    background-color: #F4F4F4;
+    border: 1px solid #A3A3A3;
+    color: #515151;
 }
 
 
