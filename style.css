@@ -173,7 +173,9 @@ a:visited {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: orange;
+    background-color: #F0EFEF;
+    padding: 11px 22px;
+    border-top: 1px solid #DCDADA; 
     /*     top: 60%;  */
 }
 
@@ -187,8 +189,16 @@ a:visited {
     float: left;
 }
 
+.left-footer li {
+    margin: 0 12px;
+}
+
 .right-footer {
     float: right;
+}
+
+.right-footer li {
+    margin: 0 12px;
 }
 
 
