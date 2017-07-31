@@ -40,7 +40,7 @@ html,body {
     box-shadow: 0 0 0 #D8D8D8, 0 2px 2px #D8D8D8; 
 }
 
-.text-input:hover{
+.text-input:hover, .text-input:focus{
     transition: .2s all;
     box-shadow: 0 0 1px #D8D8D8, -2px 0 3px #D8D8D8, 2px 3px 5px #D8D8D8;  
     border: .1px solid #D6D6D6;
