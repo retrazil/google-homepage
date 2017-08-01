@@ -4,7 +4,6 @@
 }
 
 html,body {
-    /*     border: 2px solid red;  */
     margin: 0;
     padding: 0;
     width: 100%;
@@ -12,14 +11,6 @@ html,body {
     box-sizing: border-box;
     overflow: auto;
 }
-
-/* body {
-   position: relative; 
-   } */
-
-/* body {
-   border: 2px solid blue; 
-   } */
 
 #logo {
     display: block;
@@ -75,7 +66,6 @@ html,body {
 
 
 .top-nav {
-    /*     border: 10px solid green; */
     list-style-type: none;
     margin-top: 3px;;
     padding: 14px; 
@@ -84,23 +74,18 @@ html,body {
 /* li elements inside top-nav class */
 .top-nav li {
     font: 12px sans-serif;
-    /* color: #3D3D3D; */
-    /*     display: inline-block */
     box-sizing: border-box; 
     height: 30px; 
     padding: 8px;
     padding-top: 10px;
     float: right; 
     margin: 0 5px; 
-    /*     border: 2px solid gray; */
     text-align: center; 
 }
 
 #apps {
-    /*     padding: 10px; */
     height: 25px;
     width: 25px;
-    /* margin: auto; */
     margin-top: 2.5px;
     margin-right: 10px;
     margin-left: 10px;
@@ -115,7 +100,6 @@ html,body {
     border: 5px solid white;
     background: gray;
     border-radius: 100%;
-    /* background: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png') 0 0; */
     padding: 0px; 
 } 
 
@@ -144,7 +128,6 @@ html,body {
     height: 0;
     margin: 0;
     padding: 0; 
-    /*     border: 2px solid green;  */
 }
 
 a {
@@ -162,7 +145,6 @@ a:visited {
 }
 
 .search-block {
-    /*     border: 10px solid orange;  */
     position: relative;
     top: 20%;
 }
@@ -170,7 +152,6 @@ a:visited {
 .footer {   
     list-style-type: none; 
     box-sizing: border-box; 
-    /*     border: 10px solid gray;  */
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -199,10 +180,7 @@ a:visited {
     float: right;
 }
 
-/* .right-footer li a {
-   margin: 0 12px;
-   color: #737171;
-   } */
+
 
 
 
